@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+.logo{
+    text-align: center;
+}
+
+#navmenu ul {
+    text-align: right;
+	padding:0px;
+	margin:0px;
+	background-color: white;
+	list-style:none;
+}
+
+#navmenu ul li{
+    display: inline;
+}
+
+#navmenu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+
+	/* visual do link */
+	color: grey;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+/* pra quando a pessoa passar com o mouse em cima do menu */
+#navmenu ul li a:hover {
+	background-color:#D6D6D6;
+	color: grey;
+}
+
+article{
+    display: inline-block; /*torna o conteudo flexivel, coloca o e*/
+    margin: 50px auto;
+    width: 50px;
+}   
+
+.article{
+    width: 200px;
+}
+
+
+div{
+    margin-left: 30px;
+}
+
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffc122;
+    padding: 2px;
+}
