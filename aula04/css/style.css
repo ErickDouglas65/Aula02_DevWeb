@@ -1,15 +1,45 @@
 @charset "UTF-8";
 
+.container{
+    text-align: 20%;
+}
+
 body{
     background-color: white;
     font-size: 20pt;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
+  
 }
 
 
 .logo{
-    text-align: center;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 445.46px;
+    background-image: url('../img/banner.jpg');
+    /* position: absolute; se eu tirar, alinha as fotos abaixo, mas interfere no banner/caixa   */
+    display: flex;
+ 
+}
+
+.caixa{
+    color: white;
+    height: 350px;
+    width: 43%;
+    background-color: black;
+    opacity: 0.70;
+
+}
+
+
+
+.caixa a{
+    text-decoration: none;
+    color: #00C5CD;
+
 }
 
 #navmenu ul {
@@ -40,25 +70,36 @@ body{
 	color: grey;
 }
 
-article{
-    display: inline-block; /*torna o conteudo flexivel, coloca o e*/
-    margin: 50px auto;
-    width: 50px;
-}   
-
-.article{
-    width: 200px;
+.sec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-flow: wrap;
 }
 
+.psec {
+    font-size: 18px;
+}
 
-div{
-    margin-left: 30px;
+h2 {
+    font-size: 25px;
+}
+article {
+    width: 250px;
+    margin-top: 60px;
+}
+
+section article div img{
+	width: 300px;
+	
+
 }
 
 
 footer{
-    text-align: center;
-    color: #ffffff;
-    background-color: #ffc122;
-    padding: 2px;
+    text-align: left;
+    color: grey;
+    
 }
