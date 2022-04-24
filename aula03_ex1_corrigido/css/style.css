@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    background-color: #FAF8DA;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/*
+@font-face {
+    font-family: Brokenbrush;
+    src: url('../fonts/Brokenbrush.ttf');
+}
+
+h2{
+    font-family: 'Brokenbrush', sans-serif;
+}
+*/
+
+header{
+    text-align: center;
+
+}
+
+h1{
+    font-size: 70px;
+    color: #205d76;
+    
+}
+
+.header{
+    width: 650px;
+}
+
+article{
+    display:flex; /*torna o conteudo flexivel, coloca o e*/
+    margin: 50px auto;
+    width: 450px;
+}   
+
+.article{
+    width: 200px;
+}
+
+
+div{
+    margin-left: 30px;
+}
+
+h2{
+    color: #205d76;
+    font-size: 30px;
+}
+
+ul{
+    color: #ffc122;
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 10px; /* separa os 2 li, nome embaixo dos nomes Sleep, Food, Shop */
+}
+
+a{
+    color: #ea6e2f;
+    font-size: 20px;
+}
+
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffc122;
+    padding: 2px;
+}
