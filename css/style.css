@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+.container{
+    text-align: 20%;
+}
+
+body{
+    background-color: white;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(174,200,238);
+    background: radial-gradient(circle, rgba(174,200,238,1) 1%, rgba(161,193,235,1) 22%, rgba(158,199,234,1) 31%, rgba(158,176,234,1) 49%, rgba(158,172,234,1) 54%, rgba(157,192,234,1) 75%, rgba(155,170,234,1) 84%, rgba(148,187,233,1) 100%);
+}
+
+
+.fotoPerfil{
+
+    max-width: 300px;
+    display: flex;
+    justify-content: left;
+    border:solid 1px;
+    border-radius:0px 20px 0px 20px;
+}
+
+.textoNome{
+    margin-top: 50px;
+    
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#navmenu ul {
+    text-align: right;
+	padding:0px;
+	margin:0px;
+	background: rgb(174,200,238);
+    background: radial-gradient(circle, rgba(174,200,238,1) 1%, rgba(161,193,235,1) 22%, rgba(158,199,234,1) 31%, rgba(158,176,234,1) 49%, rgba(158,172,234,1) 54%, rgba(157,192,234,1) 75%, rgba(155,170,234,1) 84%, rgba(148,187,233,1) 100%);
+	list-style:none;
+}
+
+#navmenu ul li{
+    display: inline;
+}
+
+#navmenu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+
+	/* visual do link */
+	color: grey;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+/* pra quando a pessoa passar com o mouse em cima do menu */
+#navmenu ul li a:hover {
+	background-color:#D6D6D6;
+	color: grey;
+}
+
+article {
+
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+ 
+}
+
+section article div img{
+	width: 300px;
+	
+
+}
+
+
+footer{
+    text-align: center;
+    color: black;
+
+}
+
+.inicial {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+        
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 330px;
+    background: rgb(174,200,238);
+    background: radial-gradient(circle, rgba(174,200,238,1) 1%, rgba(161,193,235,1) 22%, rgba(158,199,234,1) 42%, rgba(157,192,234,1) 51%, rgba(155,170,234,1) 84%, rgba(148,187,233,1) 100%);
+    position: relative; 
+    width: 50wv;
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border: ridge #ccc;
+    border-width: 6px;
+}
+
+
+.right{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 330px;
+    background: rgb(174,200,238);
+    background: radial-gradient(circle, rgba(174,200,238,1) 1%, rgba(161,193,235,1) 22%, rgba(158,199,234,1) 31%, rgba(158,176,234,1) 49%, rgba(157,192,234,1) 75%, rgba(155,170,234,1) 84%, rgba(148,187,233,1) 100%);
+    position: relative;
+    width: 50wv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: inset;
+    border: ridge #ccc;
+    border-width: 6px;
+}
+
+h2 {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+}
+
+
+.card{
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* espacamento entre o `Cadastro e Consulta` */
+    padding: 20px;
+    text-align: center;
+}
+
+
+section h2{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 10px 0px;
+}
+
+article ul{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 10px 0px;
+}
+
+article .psec{
+    text-align: left;
+}
+
+.expProf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 10px 0px;
+}
+
+.perfil ul {    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 10px 0px;
+}
+
+.bordaExp {
+    text-align: left;
+    border-style: inset;
+    border: ridge #ccc;
+    border-width: 6px;
+    border-top: 4px solid #4876FF;
+    background: rgb(174,200,238);
+    background: radial-gradient(circle, rgba(174,200,238,1) 1%, rgba(161,193,235,1) 22%, rgba(158,199,234,1) 31%, rgba(158,176,234,1) 49%, rgba(158,172,234,1) 54%, rgba(157,192,234,1) 75%, rgba(155,170,234,1) 84%, rgba(148,187,233,1) 100%);
+}
