@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <title>Grid</title>
+</head>
+
+<body>
+
+  <!-- Grid -->
+
+  <div class="bg-warning container">
+    <!-- row para alinhar as div na msm linha, div da linha -->
+    <div class="row">
+      <div class="bg-success col-2">Area conteudo 1</div>
+      <div class="bg-primary col-8">Area do conteudo 2</div>
+    </div>
+  </div>
+
+  <br>
+  <div class="bg-warning container">
+    <!-- row para alinhar as div na msm linha, div da linha -->
+    <div class="row">
+      <!-- p-0 ate o 5, é o padding -->
+      <!-- m-2 é o margin -->
+      <div class="bg-success p-2 col-2 col-md-4 col-lg-6">Area conteudo 1</div>
+      <div class="bg-primary p-2 col-8 col-md-4 col-lg-6">Area do conteudo 2</div>
+      <div class="bg-info p-2 col-2 col-md-4 col-lg-12">Area do conteudo 3</div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <!-- row para alinhar as div na msm linha, div da linha -->
+    <div class="row">
+      <div class="bg-light border p-3 col-sm-6">
+        <h2>Título área 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+      <!-- se nao descrever o extra small, ele define automaticamente para 6 colunas -->
+      <div class="bg-light p3 col-sm-6">
+        <h2>Título área 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <!-- row para alinhar as div na msm linha, div da linha -->
+    <div class="row bg-warning">
+      <div class="bg-light border p-3 col-md">
+        <h2>Título área 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+      <!-- se nao descrever o extra small, ele define automaticamente para 6 colunas -->
+      <div class="bg-light p3 col-md">
+        <h2>Título área 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+      <div class="bg-light border p-3 col-md">
+        <h2>Título área 3</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <!-- row para alinhar as div na msm linha, div da linha -->
+    <div class="row bg-warning">
+      <div class="bg-light border p-3 col-md order-2">
+        <h2>Título área 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+      <!-- se nao descrever o extra small, ele define automaticamente para 6 colunas -->
+      <div class="bg-light p3 col-md order-3">
+        <h2>Título área 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+      <!-- vai pegar 9 colunas que sobraram pq o primeiro foi col-md-3, dai divide por 2, sobrou 4,5 colunas -->
+      <!-- nao tem como escrever col-md-4,5, entao usa-se esse método -->
+      <div class="bg-light border p-3 col-md order-1">
+        <h2>Título área 3</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, numquam fuga, illo eius nobis,
+          voluptatibus aliquid natus est reprehenderit perferendis pariatur. Quas non aliquid temporibus animi cum qui!
+          Iste, temporibus.</p>
+        <button type="button" class="btn btn-secondary">Leia mais</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- offset-4 para deixar 4 colunas nos lados -->
+      <div class="bg-primary text-center text-white p-4 col-sm-6 col-md-4 offset-sm-3 offset-md-4">Area do login</div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
